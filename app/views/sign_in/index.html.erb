@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Sign In</title>
+        <%= csrf_meta_tags %>
+        <%= csp_meta_tag %>
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<header class="cd-main-header position-relative" id="logged-in-inactive">
+	<div id="main-header">
+
+		<a href="" class=""><img src="/assets/logo.png" id="wordmark" alt="" /></a>
+		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+
+		<nav class="cd-nav">
+			<ul class="cd-top-nav">
+				<li class="list-inline-item">Welcome, John Johnson</li>
+				<li class="list-inline-item"><a href="">Logout</a></li>
+				<li class="list-inline-item"><a href="">Help</a></li>
+			</ul>
+		</nav>
+
+	</div>
+</header>
+<div>
+	<div class="showcase-container">
+		<img src="/assets/uci_showcase.png" alt="16x9 Image" class="image_static" />
+		<div class="showcase-text">
+			<h3> Welcome to My UCI Account Management Tool </h3>
+			<h6> Review your personal information and manage your security, privacy, and services associated with your UCINet Account. </h6>
+			<center>
+				<a href = "../../patterns/05-PAGES-01-Home/05-PAGES-01-Home.html"><button class="sign-in-button"> Sign In </button></a>			</center>
+		</div>
+	</div></div>
+
+<div class="row">
+    <div class="padding-0 col-md-6 col-lg-4 col-xl-4">
+		<div class="card1">
+			<div class="card-body">
+		    	<h6 class="card-title"><b> Don't have a UCInet Account? </b></h6>
+		    	<p class="card-text">New users can activate a UCInet Account and gain access to university resources.</p>
+		    	<br>
+		    	<a href=../../patterns/05-PAGES-00-Activation/05-PAGES-00-Activation.html > <button class="a-button">Activate my UCInetID</button></a>
+		    </div>
+		</div>	</div>
+    <div class="padding-0 col-md-6 col-lg-4 col-xl-4">
+    	<div class="card2">
+    		<div class="card-body">
+    	    	<h6 class="card-title"><b> Forget your UCInet password? </b></h6>
+    	    	<p class="card-text">If you forgot your UCInet account password you are able to reset the password.</p>
+    	    	<br>
+    	    	<a href=../../patterns/05-PAGES-00-Reset-Password/05-PAGES-00-Reset-Password.html> <button class="a-button">Reset my password</button></a>
+    	    </div>
+    	</div>	</div>
+    <div class="padding-0 col-md-6 col-lg-4 col-xl-4">
+    	<div class="card3">
+    		<div class="card-body">
+    	    	<h6 class="card-title"><b> Having trouble? </b></h6>
+    	    	<p class="card-text">Contact our Office of Information Technology (OIT) if you need assistance.</p>
+    	    	<br>
+    	    	<a href="https://www.oit.uci.edu/help/" target="_blank"> <button class="a-button">OIT Help Center</button></a>
+    	    </div>
+    	</div>	</div>
+</div>
+
+<footer class="page-footer font-small blue pt-4">
+
+    <div class="container-fluid text-center text-md-left">
+
+      <div class="row">
+
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Contact Us</h5>
+          <p>Here you can use rows and columns here to organize your footer content</p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-3 mb-md-0 mb-3">
+        	<h5 class="text-uppercase">About OIT</h5>
+            <ul class="list-unstyled">
+              <li><a href="#!">Link 1</a></li>
+              <li><a href="#!">Link 2</a></li>
+              <li><a href="#!">Link 3</a></li>
+              <li><a href="#!">Link 4</a></li>
+            </ul>
+        </div>
+
+  		<div class="col-md-3 mb-md-0 mb-3">
+    		<h5 class="text-uppercase">Need Help?</h5>
+    			<ul class="list-unstyled">
+    				<li><a href="#!">Link 5</a></li>
+    				<li><a href="#!">Link 6</a></li>
+    				<li><a href="#!">Link 7</a></li>
+    				<li><a href="#!">Link 8</a></li>
+    			</ul>
+    		</div>
+      </div>
+
+    </div>
+
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> UCI Regents
+    </div>
+
+</footer>
+</html>
